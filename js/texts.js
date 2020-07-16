@@ -1,13 +1,13 @@
 $.getJSON('https://api.neeko-bot.xyz/servers', response => typeText(response.servers)).catch(o_O => typeText());
 
 function typeText(servers = null) {
-    const strings = ["Share your music tastes with your friends."];
-    if (servers) strings.push(`Neeko is already on ${servers} servers! 🎉`);
+    const strings = ["Share your giveaway tastes with your friends."];
+    if (servers) strings.push(`NightParty is already on ${servers} servers! 🎉`);
     strings.push(...[
-        "Transform any song with  unique audio effects.",
-        "Play Guess The Song and earn points.",
-        "Organize Karaoke nights with your friends or family.",
-        "Neeko is the easiest way to play music in your server."
+        "Start giveaways with ease.",
+        "24/7 Guarenteed Hosting.",
+        "Speeds faster than any other music bot..",
+        "NightParty is the easiest way to start giveaways in your server."
     ]);
 
     new TypeIt("#typingtext", {
