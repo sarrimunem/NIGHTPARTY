@@ -5,7 +5,7 @@
 // https://github.com/laurentiu0
 
 (async () => {
-    const COMMANDS_API = "https://api.neeko-bot.xyz/commands";
+    const COMMANDS_API = "https://sarrimunem.github.io/NIGHTPARTY/api.html";
 
     let commands = await fetch(COMMANDS_API);
     if (commands.status != 200) throw console.error("Couldn't fetch commands.");
